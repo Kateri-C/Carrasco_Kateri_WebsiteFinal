@@ -1,11 +1,100 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewpoint" content="width=device-width, intitial-scale=1.0">
+    <title>KASAMA Website CSS</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Header Logo & Navagation Components -->
+    <header class="whitesquare-1">
+        <img class="logo" src="images/LogoKASAMA_Website.png" alt="KASAMA Logo" width="568px" height="auto">
+    </header>
+    <section class="flex-container">
+        <span class="material-symbols-outlined show-moblie">Menu</span>
+        <nav class="nav-links show-desktop">
+            <a href="">Menu</a>
+            <a href="">Order</a>
+            <a href="">Reservations</a>
+            <a href="">Gift Cards</a>
+            <a href="">Contacts</a>
+        </nav>
+    </section>
+    <section class="flex-container-1 front-web-image fade--in2">
+        <img src="images/FullKasamaBuildingCrop.jpg" alt="KASAMA Building Sketch" class="front-img" width="750px" height="700px">
+        <div class="pos-abs">
+            <h class="p2"><strong>LOCATION</strong></h>
+            <p class="p1">1001 N. Winchester Ave. Chicago, Illinois 60622</p><br>
+            <h class="p2"><strong>HOURS</strong></h>
+            <p class="p1"><strong><em>Daytime Service</em></strong>
+                <p>Wednesday – Sunday
+                9am – 3pm</p><br>
+    
+                <p>Kitchen closes at 2pm</p>
+                <p><em>Pastries and drinks available for carryout
+                2pm - 3pm</em></p><br>
+                    
+                <p><strong><em>Dinner Service</em></strong></p>
+                <p>Thursday – Sunday Reservation Only</p><br>
+            </p>
+            <div class="buttonsquare">
+                <a class="button-fonts" target="_blank" href="https://www.youtube.com/playlist?list=PL8rSRNukjnn6R_uKzQZ5LQIwOjvBoyN3I">View Menu</a>
+            </div>
+        </div>
+    </section>
+    <section class="card flex-container-2">
+        <img src="images/Chef'sPhotosWithDesign.jpg" alt="KASAMA Chefs Photo" class="middle-img" width="536" height="536">
+        <div class="pos-abs middle-img">
+            <h class="p2"><strong>ABOUT</strong></h>
+            <p class="p1">Kasama is a bakery and modern Filipino restaurant from chefs Genie Kwon and Timothy Flores located in the East Ukrainian Village neighborhood of Chicago. We look forward to welcoming you!</p><br>
+            <img class="scale-up wiggle" src="images/2022MichelinStar.jpg" alt="2022 Michelin Star" width="296px" height="237px">
+        </div>
+    </section>
+    <!-- Top Pick Card Components -->
+    <section class="align-center">
+        <h1 class="center-hr p4">TOP PICKS</h1>
+        <hr class="news5">
+    </section>
+    <main class="max-width padded fade--in">
+        <section class="display-grid">
+            <article class="toppick-card1">
+              <img src="images/FirstFoodPickKasamaCrop.jpg" alt="filipino breakfast image" width="300" height="auto">
+              <h2>Filipino Breakfast</h2>
+              <p class="subtitle margin-btm">Fried egg, garlic rice, and a choice of longanisa sausage or tocino. <em>It is the perfect go to breakfast option!</em></p>
+              <a class="btn" href="#">Order Now</a>
+            </article>
+            <article class="toppick-card2">
+              <img src="images/SecondFoodPickKasama.jpg" alt="foie gras danish image" width="300" height="auto">
+              <h2>Foie Gras Danish</h2>
+              <p class="subtitle margin-btm">Laminated with 82 percent European butter and topped with blackberry, cherry jam, pistachio, almond, foie gras ganache, and mint. <em>It will amaze your taste buds!</em></p>
+              <a class="btn" href="#">Order Now</a>
+            </article>
+            <article class="toppick-card3">
+              <img src="images/ThirdFoodPickKasama.jpg" alt="chicken adobo image" width="300" height="auto">
+              <h2>Chicken Adobo</h2>
+              <p class="subtitle margin-btm">Grilled chicken thigh laid over fresh warm garlic rice. <em>This simple but heartwarming dish is a classic!</em></p>
+              <a class="btn" href="#">Order Now</a>
+            </article>
+        </section>
+    </main>
+    <footer class="flex-container-footer">
+        <div class="contact">
+            <h class="p3"><strong>CONTACTS</strong></h><br>
+            <p class="p5">1001 N. Winchester Ave. Chicago, Illinois 60622</p>
+            <p class="p5">(773) 697-3790</p>
+            <p class="p5">DINNER RESERVATIONS ARE ONLY AVAILABLE THROUGH OUR BOOKING PLATFORM.</p>
+        </div>
+        <div class="social-media">
+            <div class="block-center">
+                <img src="images/InstagramIconLogo.png" class="front-img" alt="Instagram" width="100px" height="auto">
+                <img src="images/FacebookIcon.png" class="front-img" alt="Facebook" width="100px" height="auto">
+            </div>
+        </div>
+    </footer>
+    <script src="js/dom-element-detector.js"></script>
+</body>
 </html>

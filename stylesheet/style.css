@@ -1,0 +1,351 @@
+/* Header Logo & Navagation */
+.whitesquare-1 {
+    background-color: white;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #944b21;
+}
+.nav-links a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.show-desktop {
+    display: none;
+    margin: 0 auto;
+}
+.show-moblie {
+    color: white;
+    display: inline;
+}
+
+.whitesquare-2 {
+    background-color: white;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.whitesquare-3 {
+    max-width: 600px;
+    background-color: white;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: right;
+}
+element.style {
+    object-fit: cover;
+}
+.front-img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+.front-web-image {
+    max-width: 1366;
+    position: relative;
+}
+.pos-abs {
+    padding: 1em;
+    color: black;
+}
+
+.middle-img {
+    flex-basis: 50%;
+}
+
+.flex-container-1 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.header-for-buttons {
+    max-width: 1366px;
+    max-height: 68px;
+    background-color: #944b21;
+    margin: 0 auto;
+}
+.header-button-font {
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.p1 {
+    font-family: 'Segoe UI', sans-serif;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+.p2 {
+    font-family: 'Segoe UI', sans-serif;
+    color: #944b21;
+    font-size: 20px;
+    text-align: justify;
+}
+.p3 {
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.p4 {
+    font-family: 'Segoe UI', sans-serif;
+    color: #944b21;
+    font-size: 20px;
+    text-align: center;
+}
+.p5 {
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+.buttonsquare {
+    max-width: 140px;
+    max-height: 50px;
+    color: #944b21;
+    background-color: #944b21;
+    padding: 2px;
+    margin: 0 auto 20px auto;
+}
+.button-fonts {
+    display: inline-block;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.buttonsquare:hover {background-color: #944b21}
+
+.buttonsquare:active {
+    transform: translateY(4px);
+}
+
+.flex-container-2 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card h3, .card a {
+    margin: 10px 0;
+}
+.card {
+    max-width: 1366px;
+    overflow: hidden;
+}
+.card.flex-container {
+    display: flex;
+    align-items: center;
+}
+.card .padded {
+    padding: 50px;
+}
+
+.flex-container-footer {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.contact {
+    flex-basis: 60%;
+    background-color: #944b21;
+    padding: 20px;
+}
+.social-media {
+    flex-basis: 40%;
+    background-color: white;
+    padding: 5px;
+}
+.block-center {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.news5 {
+    border: 3px solid #944b21;
+    border-radius: 5px;
+}
+.center-hr {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: white;
+    transform: translateY(52px);
+}
+.align-center {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+/* Card Component */
+/*Global Selectors */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+h2 {
+    font-family: 'Segoe UI', sans-serif;
+    color: #944b21;
+}
+a {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: light;
+}
+
+/* layout */
+.display-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.max-width {
+    margin: 0 auto;
+    max-width: 1366px;
+}
+
+/* alignment */
+.txt-center {
+    text-align: center;
+}
+
+/* spacing */
+.margin-btm {
+    margin-bottom: 2em;
+}
+.padded {
+    padding: 32px;
+}
+
+/* Top Picks Card */
+.toppick-card1 {
+    padding: 1em;
+    border: 3px solid #998B30;
+}
+.toppick-card2 {
+    padding: 1em;
+    border: 3px solid #F9DCDE;
+}
+.toppick-card3 {
+    padding: 1em;
+    border: 3px solid #998B30;
+}
+.toppick-card h2 {
+    margin: 10px 0;
+    font-size: 32px;
+    line-height: 38px;
+}
+.subtitle {
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #944b21;
+    text-decoration: none;
+    color: white;
+}
+      
+/* colors */
+.gray {
+    background-color: rgb(194, 194, 194);
+}
+
+.fade--in, .fade--in2 {
+    opacity: 0;
+}
+.fade--in.active, .fade--in2.active {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes fade-in {
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+.wiggle {
+    opacity: 0;
+}
+.wiggle.active {
+    animation-name: wiggle;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg) scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: rotate(45deg) scale(1);
+        opacity: .5;
+    }
+    75% {
+        transform: rotate(-45deg) scale(1.5);
+        opacity: .75;
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}
+
+/* Header Logo & Navagation */
+@media (min-width: 648px) {
+    .show-desktop {
+        display: block;
+    }   
+    .show-moblie {
+        display: none;
+    }
+}
+/* Top Pick Cards */
+@media (max-width: 975px) {
+    .display-grid {
+        grid-template-columns: 1fr;
+    }
+}
